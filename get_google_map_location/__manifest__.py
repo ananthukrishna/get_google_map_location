@@ -1,4 +1,6 @@
-﻿###############################################################################
+
+# -*- coding: utf-8 -*-
+###############################################################################
 #
 #    Odoo, Open Source Management Solution
 #
@@ -20,25 +22,25 @@
 #
 ###############################################################################
 {
-    'name': 'Partner Google Map',
-    'version': '1.0',
-    'category': 'Extra Tools',
-    'summary': 'Map widget',
-    'description': """Google Maps widget for Prtners""",
-    'author': 'Ananthu Krishna',
-    'license': 'AGPL-3',
-    'website': 'http://www.codersfort.com',
-    'sequence': 0,
-    "images": ['images/parner_google_map_location.png'],
-    'depends': ['base','base_setup','web'],
-    'qweb': [
-        'static/src/xml/web_map.xml',
+    "name": "Partner Google Map",
+    "version": "1.0",
+    "category": "Extra Tools",
+    "summary": "Map widget",
+    "description": """Google Maps widget for Prtners""",
+    "author": "Ananthu Krishna",
+    "license": "AGPL-3",
+    "website": "http://www.codersfort.com",
+    "sequence": 0,
+    "images": ["images/parner_google_map_location.png"],
+    "depends": ["base","base_setup","web"],
+    "qweb": [
+        "static/src/xml/web_map.xml",
     ],
-    'data': [
-        'views/res_partner_views.xml',
-        'views/web_map_templates.xml',
-        'views/res_config_views.xml',
-        'wizard/set_google_map_location.xml'
+    "data": [
+        "views/res_partner_views.xml",
+        "views/web_map_templates.xml",
+        "views/res_config_views.xml",
+        "wizard/set_google_map_location.xml"
     ],    
-    'installable': True,
+    "installable": True,
 }
