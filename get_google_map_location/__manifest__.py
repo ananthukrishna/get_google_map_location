@@ -27,7 +27,7 @@
     "category": "Extra Tools",
     "summary": "Map widget",
     "description": """Google Maps widget for Prtners""",
-    "author": "Ananthu Krishna",
+    "author": "CodersFort",
     "license": "AGPL-3",
     "website": "http://www.codersfort.com",
     "sequence": 0,
